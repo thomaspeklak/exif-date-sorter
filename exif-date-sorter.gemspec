@@ -18,5 +18,5 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.name          = "exif-date-sorter"
   gem.require_paths = ["lib"]
-  gem.version       = Exif::Date::Sorter::VERSION
+  gem.version       = ExifDateSorter::VERSION
 end
