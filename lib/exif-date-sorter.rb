@@ -1,6 +1,7 @@
 require 'rubygems'
 require "exif-date-sorter/version"
 require "exifr"
+require "fileutils"
 
 class ExifDateSorter
   def initialize(source, target)
