@@ -6,12 +6,10 @@ Gem::Specification.new do |gem|
   gem.email         = ["thomas.peklak@gmail.com"]
   gem.description   = %q{Sort photos in year and month folders based on exif date informatiion}
   gem.summary       = %q{Sort photos based on exif information}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/thomaspeklak/exif-date-sorter"
 
   gem.add_dependency(%q<exifr>, ["> 1.1"])
   gem.add_development_dependency(%q<bundler>, ["> 1.0"])
-
-
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
