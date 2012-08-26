@@ -1,0 +1,6 @@
+#!/usr/bin/ruby
+$LOAD_PATH.unshift "#{File.dirname(__FILE__)}/../lib"
+
+require 'exif-date-sorter'
+
+ExifDateSorter.new(ARGV[0], ARGV[1]).move
